@@ -15,7 +15,8 @@ require('brace/theme/tomorrow');
 
 
 //include as many of the libraries
-require('brace/mode/javascript');
+require('brace/mode/r');
+// require('brace/mode/javascript');
 // require('brace/mode/java');
 // require('brace/mode/php');
 // require('brace/mode/python');
