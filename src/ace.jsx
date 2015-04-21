@@ -36,20 +36,20 @@ require('brace/mode/javascript');
 
 module.exports = React.createClass({
   propTypes: {
-    mode  : React.PropTypes.string,
-    theme : React.PropTypes.string,
-    name : React.PropTypes.string,
-    height : React.PropTypes.string,
-    width : React.PropTypes.string,
-    fontSize : React.PropTypes.number,
-    showGutter : React.PropTypes.bool,
-    onChange: React.PropTypes.func,
-    value: React.PropTypes.string,
-    onLoad: React.PropTypes.func,
-    maxLines : React.PropTypes.number,
-    readOnly : React.PropTypes.bool,
-    highlightActiveLine : React.PropTypes.bool,
-    showPrintMargin : React.PropTypes.bool
+    mode:                 React.PropTypes.string,
+    theme:                React.PropTypes.string,
+    name:                 React.PropTypes.string,
+    height:               React.PropTypes.string,
+    width:                React.PropTypes.string,
+    fontSize:             React.PropTypes.number,
+    showGutter:           React.PropTypes.bool,
+    onChange:             React.PropTypes.func,
+    value:                React.PropTypes.string,
+    onLoad:               React.PropTypes.func,
+    maxLines:             React.PropTypes.number,
+    readOnly:             React.PropTypes.bool,
+    highlightActiveLine:  React.PropTypes.bool,
+    showPrintMargin:      React.PropTypes.bool
   },
   getDefaultProps: function() {
     return {
