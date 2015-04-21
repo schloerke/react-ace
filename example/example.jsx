@@ -12,8 +12,8 @@ function onChange(newValue) {
 // render a first
 React.render(
   <AceEditor
-    mode="java"
-    theme="github"
+    mode="r"
+    theme="tomorrow"
     name="blah1"
     height="6em"
     onChange={onChange}
@@ -27,7 +27,7 @@ var defaultValue = "function onLoad(editor) { \n  console.log(\"i've loaded\");\
 //render a second
 React.render(
   <AceEditor
-    mode="javascript"
+    mode="r"
     theme="tomorrow"
     name="blah2"
     onLoad={onLoad}
@@ -40,7 +40,7 @@ React.render(
 
 global.reloadProps = function () {
   React.render(
-  <AceEditor mode="javascript" theme="tomorrow" name="blah2" fontSize={40} height="8em"/>,
+  <AceEditor mode="r" theme="tomorrow" name="blah2" fontSize={40} height="8em"/>,
   document.getElementById('example2')
 );
 }
